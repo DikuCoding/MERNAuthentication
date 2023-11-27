@@ -11,7 +11,7 @@ const app = express()
 
 // Enable CORS for all routes
 app.use(cors({
-    origin: ["http://localhost:3000"],   //for token
+    origin: ["https://mern-authentication-one.vercel.app"],   //for token
     methods: ["GET", "POST"],
     credentials: true
 
