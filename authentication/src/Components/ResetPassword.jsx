@@ -15,7 +15,8 @@ const {id, token} = useParams()
 axios.defaults.withCredentials =true;  
 const handleSubmit =(e)=>{
   e.preventDefault();
-  axios.post('http://localhost:3001/reset-password/${id}/${token}', {password})
+  axios.post('deploy-mern-authentication-api-xi.vercel.app
+/reset-password/${id}/${token}', {password})
   .then(result=>{
     console.log(result);
     if(result.data === "Successfully Logged in"){
