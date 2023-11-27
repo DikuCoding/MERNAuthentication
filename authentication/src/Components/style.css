@@ -1,0 +1,28 @@
+.navbar{
+    background-color: rgb(234, 212, 212);
+}
+.navbar-brand{
+    color: rgb(47, 38, 38);
+}
+.nav-link{
+    color: rgb(47, 38, 38);
+}
+#logo{
+    width:4%;
+}
+
+/* for signinp/registration */
+.form-control{
+    width: 400px;
+}
+/* .form-label{
+    margin-left: 20px;
+} */
+.form{
+    margin-left: 80px;
+}
+.registered{
+    margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+}
