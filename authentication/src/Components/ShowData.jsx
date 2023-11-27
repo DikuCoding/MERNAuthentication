@@ -7,7 +7,7 @@ const ShowData = () => {
 const [users, setUsers] = useState([]);
 
     useEffect(()=>{
-        axios.get('deploy-mern-authentication-api-xi.vercel.app
+        axios.get('https://deploy-mern-authentication-api-xi.vercel.app
 /getUsers')
         .then(users=> setUsers(users.data))
         .catch(err => console.log(err))
