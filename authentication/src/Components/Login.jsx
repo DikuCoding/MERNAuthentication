@@ -16,7 +16,8 @@ const navigate = useNavigate();
 axios.defaults.withCredentials =true;  
 const handleSubmit =(e)=>{
   e.preventDefault();
-  axios.post('http://localhost:3001/login', {email,password})
+  axios.post('deploy-mern-authentication-api-xi.vercel.app
+/login', {email,password})
   .then(result=>{
     console.log(result);
     if(result.data === "Successfully Logged in"){
