@@ -13,7 +13,7 @@ const navigate = useNavigate();
 
 const handleSubmit =(e)=>{
   e.preventDefault();
-  axios.post('deploy-mern-authentication-api-xi.vercel.app
+  axios.post('https://deploy-mern-authentication-api-xi.vercel.app
 /register', {name,email,password})
   // .then(result=>{console.log(result)
   .then(res=>{alert("Account Created")
