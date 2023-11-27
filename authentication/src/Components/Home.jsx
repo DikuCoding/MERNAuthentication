@@ -8,7 +8,8 @@ const Home = () => {
   const navigate = useNavigate();
   //for authentication
   useEffect(()=>{
-    axios.get('http://localhost:3001/home')
+    axios.get('deploy-mern-authentication-api-xi.vercel.app
+/home')
     .then(result=>{console.log(result)
       if(result.data !=="Successfully Logged in"){
         navigate('/login',{replace:true})
