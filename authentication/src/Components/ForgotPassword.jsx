@@ -11,7 +11,7 @@ const [email,setEmail ] = useState()
 
 const navigate = useNavigate();
 
-axios.defaults.withCredentials =true;  
+// axios.defaults.withCredentials =true;  
 const handleSubmit =(e)=>{
   e.preventDefault();
   axios.post('https://deploy-mern-authentication-api-xi.vercel.app
